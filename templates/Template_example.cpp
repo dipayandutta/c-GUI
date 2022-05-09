@@ -14,5 +14,8 @@ int main(void){
 				auto num2 = Max(2.4f,static_cast<float>(1));
 				cout << num2 << endl;
 
+				Max<double>(3,6.2);
+				/*Instantiate the Max function in Integer Type*/
+				int(*pfn)(int,int) = Max;
 				return 0;
 }
